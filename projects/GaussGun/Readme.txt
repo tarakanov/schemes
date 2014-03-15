@@ -1,0 +1,1 @@
+You can change package of any component, if needed. Just save characteristics.
