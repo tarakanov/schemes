@@ -2548,63 +2548,6 @@ JST PH 2-pin thru-home side entry</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
-<package name="SOT23-R">
-<description>&lt;b&gt;SOT23&lt;/b&gt; - Reflow soldering</description>
-<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.5724" y1="-0.6524" x2="-1.5724" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="-1.5724" y1="0.6604" x2="-0.5636" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6524" width="0.2032" layer="21"/>
-<wire x1="0.5636" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="0.3724" y1="-0.6604" x2="-0.3864" y2="-0.6604" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1" dx="0.635" dy="1.016" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.635" dy="1.016" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="0.635" dy="1.016" layer="1"/>
-<text x="1.778" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="1.778" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-<package name="SOT23-W">
-<description>&lt;b&gt;SOT23&lt;/b&gt; - Wave soldering</description>
-<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.6224" y1="-0.3984" x2="-1.6224" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.6224" y1="0.6604" x2="1.6224" y2="-0.3984" width="0.2032" layer="21"/>
-<wire x1="0.2454" y1="-0.6604" x2="-0.2594" y2="-0.6604" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1.3" dx="2.8" dy="1.4" layer="1"/>
-<smd name="2" x="1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
-<smd name="1" x="-1.1" y="-1.3" dx="1.2" dy="1.4" layer="1"/>
-<text x="2.032" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="2.032" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-<package name="SOT23-WIDE">
-<wire x1="1.5724" y1="0.6604" x2="1.5724" y2="-0.6604" width="0.2032" layer="51"/>
-<wire x1="1.5724" y1="-0.6604" x2="-1.5724" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.5724" y1="-0.6604" x2="-1.5724" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.5724" y1="0.6604" x2="1.5724" y2="0.6604" width="0.2032" layer="51"/>
-<wire x1="-1.6724" y1="-0.6524" x2="-1.6724" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="-1.6724" y1="0.6604" x2="-0.7136" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="1.6724" y1="0.6604" x2="1.6724" y2="-0.6524" width="0.2032" layer="21"/>
-<wire x1="0.7136" y1="0.6604" x2="1.6724" y2="0.6604" width="0.2032" layer="21"/>
-<wire x1="0.2224" y1="-0.6604" x2="-0.2364" y2="-0.6604" width="0.2032" layer="21"/>
-<smd name="3" x="0" y="1" dx="1" dy="1.2" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="1" dy="1.2" layer="1"/>
-<smd name="1" x="-0.95" y="-1" dx="1" dy="1.2" layer="1"/>
-<text x="1.905" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="1.905" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
 <package name="LGA14">
 <wire x1="2.5" y1="1.5" x2="-2.5" y2="1.5" width="0.2032" layer="51"/>
 <wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.2032" layer="51"/>
@@ -2663,46 +2606,6 @@ JST PH 2-pin thru-home side entry</description>
 <pin name="VIN" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 <wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-</symbol>
-<symbol name="MOSFET-N">
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
-<text x="5.08" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
-<text x="3.175" y="3.175" size="0.8128" layer="93">D</text>
-<text x="3.175" y="-3.81" size="0.8128" layer="93">S</text>
-<text x="-1.27" y="-1.905" size="0.8128" layer="93">G</text>
-<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.032" y="0.762"/>
-<vertex x="2.032" y="-0.762"/>
-</polygon>
 </symbol>
 <symbol name="ADXL345">
 <wire x1="-12.7" y1="15.24" x2="12.7" y2="15.24" width="0.254" layer="94" style="shortdash"/>
@@ -2963,119 +2866,6 @@ JST PH 2-pin thru-home side entry</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MOSFET-N" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;N-Channel Mosfet&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;LEGEND&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;
-&lt;b&gt;VDS&lt;/b&gt;: Voltage Drain-Source&lt;br/&gt;
-&lt;b&gt;ID&lt;/b&gt;: Drain Current&lt;br/&gt;
-&lt;b&gt;RDS(ON)&lt;/b&gt;: Drain-Source On-State Resistance&lt;br/&gt;
-&lt;b&gt;VGS(TH)&lt;/b&gt;: Gate-Source Threshold Voltage&lt;br/&gt;
-&lt;b&gt;CISS&lt;/b&gt;: Drain-Source Input Capacitance
-&lt;/p&gt;
-&lt;p&gt;
-&lt;b&gt;SOT-23&lt;/b&gt;
-&lt;table border="0" width="90%" cellspacing="0" cellpadding="5"&gt;
-&lt;tr bgcolor="#DDDDDD"&gt;
-&lt;td&gt;Name&lt;/td&gt;
-&lt;td&gt;VDS&lt;/td&gt;
-&lt;td&gt;ID&lt;/td&gt;
-&lt;td&gt;RDS(ON)&lt;/td&gt;
-&lt;td&gt;VGS(TH)&lt;/td&gt;
-&lt;td&gt;CISS&lt;/td&gt;
-&lt;td&gt;Order Number&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2N7002E&lt;/td&gt;
-&lt;td&gt;60V&lt;/td&gt;
-&lt;td&gt;260mA&lt;/td&gt;
-&lt;td&gt;2.5 Ohm&lt;/td&gt;
-&lt;td&gt;2.5V @ 250uA&lt;/td&gt;
-&lt;td&gt;26.7pF @ 25V&lt;/td&gt;
-&lt;td&gt;2N7002ET1GOSTR-ND&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;BSH103&lt;/td&gt;
-&lt;td&gt;30V&lt;/td&gt;
-&lt;td&gt;850mA&lt;/td&gt;
-&lt;td&gt;400 mOhm&lt;/td&gt;
-&lt;td&gt;400mV @ 1mA&lt;/td&gt;
-&lt;td&gt;83pF @ 24V&lt;/td&gt;
-&lt;td&gt;BSH103,235-ND&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;BSS138&lt;/td&gt;
-&lt;td&gt;60V&lt;/td&gt;
-&lt;td&gt;320mA&lt;/td&gt;
-&lt;td&gt;1.6 Ohm&lt;/td&gt;
-&lt;td&gt;1.5V @ 250uA&lt;/td&gt;
-&lt;td&gt;50pF @ 10V&lt;/td&gt;
-&lt;td&gt;Mouser: 771-BSS138PW115&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;DMN2075U-7&lt;/td&gt;
-&lt;td&gt;20V&lt;/td&gt;
-&lt;td&gt;4.2A&lt;/td&gt;
-&lt;td&gt;38 mOhm&lt;/td&gt;
-&lt;td&gt;1V @ 250 uA&lt;/td&gt;
-&lt;td&gt;594.3pF @ 10V&lt;/td&gt;
-&lt;td&gt;DMN2075U-7DICT-ND&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;/table&gt; 
-&lt;/p&gt;
-
-&lt;p&gt;* BSS138 good choice for I2C level-shifting&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="MOSFET-N" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="REFLOW" package="SOT23-R">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WAVE" package="SOT23-W">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="WIDE" package="SOT23-WIDE">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -23595,10 +23385,6 @@ Library created by Olivier Biot.</description>
 <part name="U$14" library="microbuilder" deviceset="VIN" device=""/>
 <part name="C9" library="adafruit" deviceset="C-US" device="C0805" value="10µF"/>
 <part name="U$15" library="microbuilder" deviceset="GND" device=""/>
-<part name="Q1" library="microbuilder" deviceset="MOSFET-N" device="WIDE" value="BSS138"/>
-<part name="Q2" library="microbuilder" deviceset="MOSFET-N" device="WIDE" value="BSS138"/>
-<part name="U$16" library="microbuilder" deviceset="VIN" device=""/>
-<part name="U$17" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U1" library="microbuilder" deviceset="ACCEL_ADXL345" device=""/>
 <part name="ICSP" library="SmartPrj" deviceset="PINHD-2X3" device="" value="ICSP"/>
 <part name="GND1" library="supply1" deviceset="GND" device="" value="3x2M_NM"/>
@@ -23649,7 +23435,6 @@ Library created by Olivier Biot.</description>
 <part name="RX" library="led" deviceset="LED" device="CHIPLED_0805" value="Yellow"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="RN4" library="resistor-dil" deviceset="4R-N" device="CAY16" value="10K"/>
-<part name="RN1" library="resistor-dil" deviceset="4R-N" device="CAY16" value="10K"/>
 <part name="U4" library="FitnessDevice" deviceset="NRF8001" device=""/>
 <part name="C2" library="SparkFun" deviceset="CAP" device="0603-CAP" value="100nF"/>
 <part name="C12" library="SparkFun" deviceset="CAP" device="0603-CAP" value="33nF"/>
@@ -23690,6 +23475,9 @@ Library created by Olivier Biot.</description>
 <part name="VIN9" library="microbuilder" deviceset="VIN" device=""/>
 <part name="U$3" library="ant-planar-1" deviceset="ANTENNA_1" device="LEFT"/>
 <part name="VIN8" library="microbuilder" deviceset="VIN" device=""/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R6" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R7" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -23707,10 +23495,6 @@ Library created by Olivier Biot.</description>
 <instance part="U$14" gate="G$1" x="281.94" y="12.7"/>
 <instance part="C9" gate="G$1" x="281.94" y="2.54"/>
 <instance part="U$15" gate="G$1" x="281.94" y="-10.16"/>
-<instance part="Q1" gate="G$1" x="251.46" y="35.56" rot="R270"/>
-<instance part="Q2" gate="G$1" x="261.62" y="25.4" rot="R270"/>
-<instance part="U$16" gate="G$1" x="264.16" y="50.8"/>
-<instance part="U$17" gate="G$1" x="271.78" y="50.8"/>
 <instance part="U1" gate="G$1" x="231.14" y="-25.4"/>
 <instance part="ICSP" gate="A" x="7.62" y="73.66" smashed="yes">
 <attribute name="NAME" x="1.27" y="79.375" size="1.778" layer="95"/>
@@ -23790,13 +23574,8 @@ Library created by Olivier Biot.</description>
 <instance part="RX" gate="G$1" x="132.08" y="-96.52"/>
 <instance part="GND23" gate="1" x="142.24" y="0" rot="R90"/>
 <instance part="RN4" gate="A" x="71.12" y="58.42" rot="R90"/>
-<instance part="RN4" gate="B" x="264.16" y="-7.62" rot="R90"/>
 <instance part="RN4" gate="C" x="129.54" y="0" rot="R180"/>
 <instance part="RN4" gate="D" x="0" y="38.1" rot="R90"/>
-<instance part="RN1" gate="A" x="233.68" y="40.64" rot="R90"/>
-<instance part="RN1" gate="B" x="241.3" y="40.64" rot="R90"/>
-<instance part="RN1" gate="C" x="264.16" y="40.64" rot="R90"/>
-<instance part="RN1" gate="D" x="271.78" y="40.64" rot="R90"/>
 <instance part="U4" gate="G$1" x="302.26" y="-134.62"/>
 <instance part="C2" gate="G$1" x="208.28" y="-142.24"/>
 <instance part="C12" gate="G$1" x="218.44" y="-142.24"/>
@@ -23837,6 +23616,9 @@ Library created by Olivier Biot.</description>
 <instance part="VIN9" gate="G$1" x="292.1" y="-63.5"/>
 <instance part="U$3" gate="G$1" x="396.24" y="-111.76" rot="MR0"/>
 <instance part="VIN8" gate="G$1" x="144.78" y="-73.66"/>
+<instance part="R5" gate="G$1" x="264.16" y="-7.62" rot="R90"/>
+<instance part="R6" gate="G$1" x="233.68" y="40.64" rot="R90"/>
+<instance part="R7" gate="G$1" x="241.3" y="40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -24110,7 +23892,7 @@ Library created by Olivier Biot.</description>
 <label x="248.92" y="-15.24" size="1.778" layer="95"/>
 <wire x1="264.16" y1="-15.24" x2="264.16" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CS"/>
-<pinref part="RN4" gate="B" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="INT1" class="0">
@@ -24134,13 +23916,12 @@ Library created by Olivier Biot.</description>
 <pinref part="U1" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="256.54" y1="22.86" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
 <label x="218.44" y="22.86" size="1.778" layer="95"/>
 <wire x1="241.3" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="35.56" x2="241.3" y2="22.86" width="0.1524" layer="91"/>
 <junction x="241.3" y="22.86"/>
-<pinref part="RN1" gate="B" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SDA/SDIO" class="0">
@@ -24150,13 +23931,12 @@ Library created by Olivier Biot.</description>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="246.38" y1="33.02" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="218.44" y="33.02" size="1.778" layer="95"/>
 <wire x1="233.68" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="35.56" x2="233.68" y2="33.02" width="0.1524" layer="91"/>
 <junction x="233.68" y="33.02"/>
-<pinref part="RN1" gate="A" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SDO/ADDR" class="0">
@@ -24184,20 +23964,12 @@ Library created by Olivier Biot.</description>
 <segment>
 <pinref part="U$10" gate="G$1" pin="3.3V"/>
 <wire x1="233.68" y1="45.72" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="A" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="3.3V"/>
 <wire x1="241.3" y1="45.72" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="248.92" y1="38.1" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="48.26" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
-<junction x="241.3" y="48.26"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="259.08" y1="27.94" x2="259.08" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="48.26" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
-<junction x="248.92" y="48.26"/>
-<pinref part="RN1" gate="B" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
@@ -24213,7 +23985,7 @@ Library created by Olivier Biot.</description>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="3.3V"/>
-<pinref part="RN4" gate="B" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -24228,16 +24000,6 @@ Library created by Olivier Biot.</description>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="7.62" x2="281.94" y2="5.08" width="0.1524" layer="91"/>
 <junction x="281.94" y="7.62"/>
-</segment>
-<segment>
-<pinref part="U$16" gate="G$1" pin="VIN"/>
-<wire x1="264.16" y1="48.26" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="C" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$17" gate="G$1" pin="VIN"/>
-<wire x1="271.78" y1="48.26" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="D" pin="2"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
@@ -24339,30 +24101,12 @@ Library created by Olivier Biot.</description>
 </net>
 <net name="SDA/SDIO_5V" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="256.54" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="33.02" x2="294.64" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="35.56" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<junction x="264.16" y="33.02"/>
-<label x="276.86" y="33.02" size="1.778" layer="95"/>
-<pinref part="RN1" gate="C" pin="1"/>
-</segment>
-<segment>
 <wire x1="119.38" y1="-43.18" x2="137.16" y2="-43.18" width="0.1524" layer="91"/>
 <label x="129.54" y="-43.18" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="(ADC1)PF1"/>
 </segment>
 </net>
 <net name="SCL_5V" class="0">
-<segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="266.7" y1="22.86" x2="271.78" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="22.86" x2="294.64" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="35.56" x2="271.78" y2="22.86" width="0.1524" layer="91"/>
-<junction x="271.78" y="22.86"/>
-<label x="284.48" y="22.86" size="1.778" layer="95"/>
-<pinref part="RN1" gate="D" pin="1"/>
-</segment>
 <segment>
 <wire x1="119.38" y1="-45.72" x2="137.16" y2="-45.72" width="0.1524" layer="91"/>
 <label x="129.54" y="-45.72" size="1.778" layer="95"/>
